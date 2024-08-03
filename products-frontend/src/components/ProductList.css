@@ -1,0 +1,40 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #f4f4f4;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px; /* Optional: rounded corners for buttons */
+}
+
+button.edit {
+    background-color: #007bff; /* Blue color for Edit button */
+}
+
+button.delete {
+    background-color: #dc3545; /* Red color for Delete button */
+}
